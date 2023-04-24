@@ -5,4 +5,4 @@ A repository filled with CodeWars challenges(Kata). Currently ranked in the top 
 
 
 
-Everyday before going to bed I attempt a Kata exercise to sharpen my problem solving skills.
+Everyday I make sure I complete a Kata exercise before the the day runs out.
