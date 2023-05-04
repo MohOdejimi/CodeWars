@@ -23,6 +23,6 @@ function isItANum(str) {
   if (phoneNumber.length === 11 && phoneNumber[0] === '0') {
     return phoneNumber.join('')
   } else {
-    return 'Not a'
+    return 'Not a phone number'
   }
 }
