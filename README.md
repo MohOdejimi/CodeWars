@@ -1,7 +1,7 @@
 # CodeWars Challenges 
 
 
-A repository filled with CodeWars challenges(Kata). Currently ranked in the top 39 percentile in the global leaderboard, completed  80+ challenges and push at least 5 solutions every week.
+A repository filled with CodeWars challenges(Kata). Currently ranked in the top 28 percentile in the global leaderboard, completed  80+ challenges and push at least 5 solutions every week.
 Link to my profile: https://www.codewars.com/users/MohOdejimi
 # How it's made :
 Tech used: Javascript and Typescript.
