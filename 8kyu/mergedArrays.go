@@ -1,0 +1,29 @@
+/* You are given two sorted arrays that both only contain integers. Your task is to find a way to merge them into a single one, sorted in asc order. Complete the function mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays.
+
+You don't need to worry about validation, since arr1 and arr2 must be arrays with 0 or more Integers. If both arr1 and arr2 are empty, then just return an empty array.
+
+Note: arr1 and arr2 may be sorted in different orders. Also arr1 and arr2 may have same integers. Remove duplicated in the returned result. */
+
+// My Solution 
+
+package kata 
+
+import "sort"
+
+func mergedArrays(arr1, arr2 int[]) int[] {
+  mergedMap := make(map[int]bool) 
+  
+  for _, val := range arr1 {
+    mergedMap[val] = true 
+  }
+  for _, val := range arr2 {
+    mergedMap[val] = true
+  }
+   
+  var merged []int 
+  for key, range mergedMap {
+    merged = append(merged, key)
+  }
+  sort.Ints(merged) 
+  return merged 
+}
